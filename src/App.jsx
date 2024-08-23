@@ -1,14 +1,15 @@
-import React from 'react'
-import Navbar from './components/Navbar/Navbar'
-import ReadMore from './components/Navbar/ReadMore'
+import React from "react";
+import Navbar from "./layout/Navbar";
+import LandingPage from "./pages/Landing";
 
+// TODO use routing to render pages
 const App = () => {
   return (
-    <div>
+    <React.Fragment>
       <Navbar />
-      <ReadMore />
-    </div>
-  )
-}
+      <LandingPage />
+    </React.Fragment>
+  );
+};
 
-export default App
+export default App;
