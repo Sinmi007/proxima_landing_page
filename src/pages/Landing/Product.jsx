@@ -38,7 +38,7 @@ const Product = () => {
           </button>
         </div>
         <div>
-          <img src="fade.png" alt="fade" />
+          <img src="fade2.png" alt="fade2" />
         </div>
       </div>
     </div>

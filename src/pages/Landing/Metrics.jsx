@@ -10,12 +10,12 @@ const Metrics = () => {
         Metrics
       </button>
 
-      <div className="flex text-black font-body text-4xl items-center justify-center font-semibold leading-tight p-1 ">
+      <div className="flex text-black font-body text-4xl  font-semibold leading-tight p-1 ">
         Proximaforte in Numbers
       </div>
 
       <div
-        className="flex row justify-center items-center text-slate-900 
+        className="flex flex-row justify-center items-center text-slate-900 
        font-body lg:stats-horizontal  p-8"
       >
         <div className="flex flex-col justify-center items-center px-20">

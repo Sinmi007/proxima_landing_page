@@ -20,7 +20,7 @@ const Stories = () => {
           <img src="container5.png" alt="container5" className="  h-40 " />
         </div>
       </div>
-      <div className="flex flex-row justify-center items-center space-x-4">
+      <div className="flex  flex-col  md:flex-row justify-center items-center space-x-4">
         <div className="flex flex-row bg-yellow-100 rounded-2xl">
           <div className="flex justify-center items-center p-4">
             <img src="container7.png" alt="container7" className="h-64" />
