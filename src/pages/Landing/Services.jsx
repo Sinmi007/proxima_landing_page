@@ -20,8 +20,8 @@ const Services = () => {
       </div>
 
       {/* What we do 1 */}
-      <div className="flex  justify-center pt-16 space-x-8">
-        <div className="bg-gray-100 size-sm max-w-96 rounded-xl p-6">
+      <div className="flex flex-col  md:flex-row justify-center pt-16 space-x-8">
+        <div className="bg-gray-100 size-sm max-w-96  rounded-xl p-6">
           <img src="svg1.png" alt="svg" />
 
           <div className="flex text-slate-900 font-body font-semibold pt-8">
@@ -37,7 +37,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="bg-gray-100 size-sm max-w-96 rounded-xl p-6">
+        <div className="bg-gray-100 size-sm max-w-96  rounded-xl p-6">
           <img src="container.png" alt="container" className="top-10" />
 
           <div className="flex text-slate-900 font-body font-semibold py-4">
@@ -56,7 +56,7 @@ const Services = () => {
       </div>
 
       {/* What we do 2 */}
-      <div className="flex flex-row justify-center  p-2 ">
+      <div className="flex  flex-col  md:flex-row justify-center  p-2 ">
         <div className="size-96 max-w-96 rounded-xl p-6">
           <img src="container3.png" alt="container3" className="" />
 

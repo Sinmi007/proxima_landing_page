@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         body: ["Inter"],
       },
+      screens:{
+        "medium-screen": "855px",
+        
+      }
     },
   },
   container: {

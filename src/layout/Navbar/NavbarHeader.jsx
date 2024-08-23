@@ -27,13 +27,13 @@ const NavbarHeader = () => {
       className="navbar bg-white sticky top-0 z-[20] mx-auto flex w-full 
     items-center justify-between border-b p-6  "
     >
-      <div className="flex-1">
+      <div className="flex-1 ">
         <a className="btn btn-ghost ">
           <img src="logo.png" alt="logo" className=" w-full" />
         </a>
       </div>
 
-      <div className="md:hidden">
+      <div className="medium-screen:hidden">
         <button className="text-black" onClick={toggleMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ const NavbarHeader = () => {
       </div>
 
       <div className="flex-none">
-        <ul className="menu menu-horizontal px-1 hidden md:flex space-x-2">
+        <ul className="menu menu-horizontal px-1 hidden medium-screen:flex space-x-0">
           <li>
             <a
               href="/about.jsx"
@@ -70,7 +70,11 @@ const NavbarHeader = () => {
                 <li>
                   <a className="text-black hover:text-indigo-500  font-body text-base">
                     <div className="bg-lime-100 p-1 rounded-sm">
-                      <img src="lightbulb.png" alt="lightbulb" className="size-3" />
+                      <img
+                        src="lightbulb.png"
+                        alt="lightbulb"
+                        className="size-3"
+                      />
                     </div>
                     About
                   </a>

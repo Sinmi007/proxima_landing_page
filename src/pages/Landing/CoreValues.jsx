@@ -2,14 +2,14 @@ import React from "react";
 
 const CoreValues = () => {
   return (
-    <div className="flex flex-col bg-white items-center justify-center gap-x-10 p-20 w-full">
+    <div className="flex flex-col  bg-white items-center justify-center gap-x-10 p-20 w-full">
       <div className="p-12">
         <span className=" bg-white text-black font-body text-4xl font-semibold leading-tight ">
           Our Core Values
         </span>
       </div>
-      <div className="flex space-x-8">
-        <div className="flex bg-lime-400 flex-col space-y-8 max-w-72 max-h-80 justify-center rounded-3xl p-6">
+      <div className="flex flex-col  md:flex-row  space-x-8">
+        <div className="flex ml-8 mb-2 bg-lime-400 flex-col space-y-8 max-w-72  max-h-80 justify-center rounded-3xl p-6">
           <div className="flex size-12 ">
             <img src="innovate.png" alt="innovate" />
           </div>
@@ -29,7 +29,7 @@ const CoreValues = () => {
           </div>
         </div>
 
-        <div className="flex bg-lime-400 flex-col space-y-8 max-w-72 max-h-80 justify-center rounded-3xl p-6">
+        <div className="flex mb-2 bg-lime-400 flex-col space-y-8 max-w-72  max-h-80 justify-center rounded-3xl p-6">
           <div className="flex size-12 ">
             <img src="people.png" alt="people" />
           </div>
@@ -49,7 +49,7 @@ const CoreValues = () => {
           </div>
         </div>
 
-        <div className="flex bg-lime-400 flex-col space-y-8 max-w-72 max-h-80 justify-center rounded-3xl p-6">
+        <div className="flex mb-2 bg-lime-400 flex-col space-y-8 max-w-72 max-h-80 justify-center rounded-3xl p-6">
           <div className="flex size-12 ">
             <img src="sustainability.png" alt="sustainability" />
           </div>
