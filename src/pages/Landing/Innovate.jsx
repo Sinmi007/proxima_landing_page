@@ -10,7 +10,7 @@ const innovate = () => {
           </span>
         </div>
         <div>
-          <span className=" font-base font-body items-center">
+          <span className=" font-base font-body items-center md:max-w-2xl">
             Born from a commitment to shaping the future of financial and
             welfare services. Our journey is marked by a relentless pursuit of
             innovation in service of greater good.
@@ -18,11 +18,11 @@ const innovate = () => {
         </div>
 
         {/* buttons */}
-        <div className="flex space-x-6">
-          <button className="btn bg-violet-500 text-white border-transparent rounded-full w-32">
+        <div className="flex flex-col md:flex-row  justify-center items-center md:justify-normal md:items-start  space-x-6 py-10">
+          <button className="btn ml-4 mb-4 md:ml-0 md:mb-0  w-full  bg-violet-500 text-white border-transparent rounded-full  md:w-32">
             Let's Talk
           </button>
-          <button className="btn bg-white btn-outline text-black border-gray-300 rounded-full w-32">
+          <button className="btn w-full bg-white btn-outline  text-black border-gray-300 rounded-full md:w-32">
             Learn more
           </button>
         </div>

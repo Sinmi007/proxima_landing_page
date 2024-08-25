@@ -3,7 +3,7 @@ import React from "react";
 const Speak = () => {
   return (
     <div className="flex bg-white items-center justify-center gap-x-10 p-20 w-full">
-      <div className="flex bg-violet-950 rounded-3xl px-36">
+      <div className="flex bg-purple rounded-3xl px-36">
         <div className="flex flex-col space-y-8  justify-center ">
           <div className="flex max-w-96 px-0">
             <span className="text-white font-body text-4xl font-bold leading-tight ">

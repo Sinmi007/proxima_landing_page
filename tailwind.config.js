@@ -6,10 +6,12 @@ export default {
       fontFamily: {
         body: ["Inter"],
       },
-      screens:{
+      screens: {
         "medium-screen": "855px",
-        
-      }
+      },
+      colors: {
+        purple: "#171026",
+      },
     },
   },
   container: {

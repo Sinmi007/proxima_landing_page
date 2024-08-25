@@ -2,10 +2,10 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="flex flex-col bg-white items-center justify-center pb-10">
+    <div className="flex flex-col bg-white items-center justify-center    pb-10">
       <button
         className="btn  btn-xs bg-lime-400 hover:bg-violet-500 hover:outline-none text-black text-xs border-transparent 
-      rounded-lg font-body  "
+      rounded-lg font-body"
       >
         Services
       </button>
@@ -14,14 +14,14 @@ const Services = () => {
         What we do.
       </div>
 
-      <div className="flex max-w-2xl leading-tight  text-slate-700 text-center text-md font-body">
+      <div className="flex max-w-2xl leading-tight  text-slate-700 text-center text-md font-body  ">
         From data management to welfare disbursement, we provide reliable and
         user-friendly management solutions that you can trust implicitly.
       </div>
 
       {/* What we do 1 */}
       <div className="flex flex-col  md:flex-row justify-center pt-16 space-x-8">
-        <div className="bg-gray-100 size-sm max-w-96  rounded-xl p-6">
+        <div className="bg-gray-100 size-sm max-w-96 ml-8 mb-4 rounded-xl p-6">
           <img src="svg1.png" alt="svg" />
 
           <div className="flex text-slate-900 font-body font-semibold pt-8">
