@@ -10,7 +10,7 @@ const Services = () => {
         Services
       </button>
 
-      <div className="flex text-black font-body text-4xl font-semibold leading-tight p-4 ">
+      <div className="flex text-black font-sora font-medium text-4xl leading-tight p-4 ">
         What we do.
       </div>
 

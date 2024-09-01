@@ -4,7 +4,7 @@ const CoreValues = () => {
   return (
     <div className="flex flex-col  bg-white items-center justify-center gap-x-10 p-20 w-full">
       <div className="p-12">
-        <span className=" bg-white text-black font-body text-4xl font-semibold leading-tight ">
+        <span className=" bg-white text-black font-sora font-medium text-4xl  leading-tight ">
           Our Core Values
         </span>
       </div>

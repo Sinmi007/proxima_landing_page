@@ -5,6 +5,8 @@ export default {
     extend: {
       fontFamily: {
         body: ["Inter"],
+        sora: ["Sora"],
+        poppins:['Poppins']
       },
       screens: {
         "medium-screen": "855px",

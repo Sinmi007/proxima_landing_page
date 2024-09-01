@@ -56,19 +56,19 @@ const NavbarHeader = () => {
           <li>
             <a
               href="/about.jsx"
-              className="text-black hover:text-indigo-500 font-body text-base"
+              className="text-black hover:text-indigo-500 font-sans text-base"
             >
               What we do
             </a>
           </li>
           <li>
             <details>
-              <summary className="text-black hover:text-indigo-500 font-body text-base">
+              <summary className="text-black hover:text-indigo-500 font-sans text-base">
                 Company
               </summary>
               <ul className="bg-white rounded-t-none p-2">
                 <li>
-                  <a className="text-black hover:text-indigo-500  font-body text-base">
+                  <a className="text-black hover:text-indigo-500  font-sans text-base">
                     <div className="bg-lime-100 p-1 rounded-sm">
                       <img
                         src="lightbulb.png"
@@ -80,7 +80,7 @@ const NavbarHeader = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-black hover:text-indigo-500  font-body text-base">
+                  <a className="text-black hover:text-indigo-500  font-sans text-base">
                     <div className="bg-lime-100 p-1 rounded-sm">
                       <img src="legal.png" alt="legal" className="size-3" />
                     </div>
@@ -93,7 +93,7 @@ const NavbarHeader = () => {
           <li>
             <a
               href="/career.jsx"
-              className="text-black hover:text-indigo-500  font-body text-base"
+              className="text-black hover:text-indigo-500  font-sans text-base"
             >
               Career
             </a>
@@ -101,7 +101,7 @@ const NavbarHeader = () => {
           <li>
             <a
               href="/contact.jsx"
-              className="text-black hover:text-indigo-500  font-body text-base"
+              className="text-black hover:text-indigo-500  font-sans text-base"
             >
               Contact us
             </a>
@@ -109,7 +109,7 @@ const NavbarHeader = () => {
           <li>
             <a
               href="/talk.jsx"
-              className="btn bg-violet-500 text-white border-transparent rounded-full w-32"
+              className="btn bg-violet-500 text-white border-transparent font-sans rounded-full w-32"
             >
               Let's Talk
             </a>
@@ -123,19 +123,19 @@ const NavbarHeader = () => {
           <li>
             <a
               href="/about.jsx"
-              className="text-black hover:text-indigo-500 font-body text-base"
+              className="text-black hover:text-indigo-500 font-sans text-base"
             >
               What we do
             </a>
           </li>
           <li>
             <details>
-              <summary className="text-black hover:text-indigo-500 font-body text-base">
+              <summary className="text-black hover:text-indigo-500 font-sans text-base">
                 Company
               </summary>
               <ul className="bg-white rounded-t-none p-2">
                 <li>
-                  <a className="text-black hover:text-indigo-500  font-body text-base">
+                  <a className="text-black hover:text-indigo-500  font-sans text-base">
                     <div className="bg-lime-100 p-1 rounded-sm">
                       <img
                         src="lightbulb.png"
@@ -147,7 +147,7 @@ const NavbarHeader = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="text-black hover:text-indigo-500  font-body text-base">
+                  <a className="text-black hover:text-indigo-500  font-sans text-base">
                     <div className="bg-lime-100 p-1 rounded-sm">
                       <img src="legal.png" alt="legal" className="size-3" />
                     </div>
@@ -160,7 +160,7 @@ const NavbarHeader = () => {
           <li>
             <a
               href="/career.jsx"
-              className="text-black hover:text-indigo-500  font-body text-base"
+              className="text-black hover:text-indigo-500  font-sans text-base"
             >
               Career
             </a>
@@ -168,7 +168,7 @@ const NavbarHeader = () => {
           <li>
             <a
               href="/contact.jsx"
-              className="text-black hover:text-indigo-500  font-body text-base"
+              className="text-black hover:text-indigo-500  font-sans text-base"
             >
               Contact us
             </a>
@@ -176,7 +176,7 @@ const NavbarHeader = () => {
           <li>
             <a
               href="/talk.jsx"
-              className="btn btn-block bg-violet-500  hover:bg-lime-400 text-white border-transparent rounded-full"
+              className="btn btn-block bg-violet-500  hover:bg-lime-400 text-white border-transparent font-sans rounded-full"
             >
               Let's Talk
             </a>
