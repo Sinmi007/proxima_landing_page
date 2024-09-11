@@ -10,7 +10,7 @@ const Metrics = () => {
         Metrics
       </button>
 
-      <div className="flex text-black font-poppins font-medium text-4xl leading-tight pb-0 ">
+      <div className="flex text-black font-poppins font-semibold text-2xl leading-tight pb-0 pt-3 md:text-4xl md:leading-10 ">
         Proximaforte in Numbers
       </div>
 

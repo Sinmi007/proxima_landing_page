@@ -2,12 +2,12 @@ import React from "react";
 
 const Navbar2 = () => {
   return (
-    <div className="flex p-2 bg-white w-full">
+    <div className="flex p-2 bg-white w-full sticky top-0 z-[20]">
       <div className="navbar  justify-between items-center bg-white sticky top-0 z-[20] ">
         <div className="navbar-start ">
-          <div className="px-8">
+          <div className="md:px-8">
             <a className="btn btn-ghost ">
-              <img src="logo.png" alt="logo" className=" w-full" />
+              <img src="logo.png" alt="logo" className=" w-full " />
             </a>
           </div>
         </div>

@@ -6,13 +6,15 @@ export default {
       fontFamily: {
         body: ["Inter"],
         sora: ["Sora"],
-        poppins:['Poppins']
+        poppins: ["Poppins"],
       },
       screens: {
         "medium-screen": "855px",
       },
       colors: {
-        purple: "#171026",
+        purples: "#171026",
+        green20: "#DDFF00",
+        purple20: "#854DFC",
       },
     },
   },
